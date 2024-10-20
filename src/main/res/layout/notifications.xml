@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:src="@drawable/baseline_arrow_back_24"
+                app:tint="@color/black"
+                >
+
+            </ImageView>
+        </Toolbar>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notifications"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="18dp"
+            >
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="15dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Offers and updates      Account"
+                android:textColor="@color/grey_700"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                ></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Travel tips and offers"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="15dp"
+                ></TextView>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Inspire your next trip with personalized recommendations and special offers."
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="8dp"
+            ></TextView>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Inspirations and offers"
+            android:textSize="17dp"
+            android:textColor="@color/Dark_Grey"
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="On: SMS"
+            android:layout_marginHorizontal="20dp"
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trip Planning"
+            android:textSize="17dp"
+            android:textColor="@color/Dark_Grey"
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="On: SMS"
+            android:layout_marginHorizontal="20dp"
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-----------------------------------------------------------------------------------------"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginTop="15dp"
+            ></TextView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Airbnb updates"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="15dp"
+                ></TextView>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stay upto date on the latest news from Airbnb, and let us know how we can improve."
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="8dp"
+            ></TextView>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="News and programmes"
+            android:textSize="17dp"
+            android:textColor="@color/Dark_Grey"
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="On: SMS"
+            android:layout_marginHorizontal="20dp"
+            >
+        </TextView>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Feedback"
+            android:textSize="17dp"
+            android:textColor="@color/Dark_Grey"
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="On: SMS"
+            android:layout_marginHorizontal="20dp"
+            >
+        </TextView>
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Travel regulations"
+            android:textSize="17dp"
+            android:textColor="@color/Dark_Grey"
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="On: SMS"
+            android:layout_marginHorizontal="20dp"
+            >
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-----------------------------------------------------------------------------------------"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginTop="15dp"
+            ></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Unsubscribe from all offers and updates"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="15dp"
+                ></TextView>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You'll continue to get notifications about your account activity"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="8dp"
+            ></TextView>
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="All offers and updates"
+            android:textSize="17dp"
+            android:textColor="@color/Dark_Grey"
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Custom"
+            android:layout_marginHorizontal="20dp"
+            >
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="By opting into text messages, you agree to receive automated marketting messages from Airbnb at +92***5778598. To receive messages at a different number, update your phone number settings on your personal info page"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginBottom="130dp"
+            android:textStyle="bold"
+            ></TextView>
+
+
+<!--            <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                -->
+<!--                >-->
+
+<!--            </com.google.android.material.bottomnavigation.BottomNavigationView>-->
+
+    </LinearLayout>
+
+</ScrollView>
