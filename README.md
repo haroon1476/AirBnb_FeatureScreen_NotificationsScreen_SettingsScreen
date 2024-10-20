@@ -40,5 +40,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Contact
 Author: Haroon Ur Rasheed
-Email: your.email@example.com
-GitHub: yourusername
+Email: haroonrasheed1476@gmail.com
+GitHub: haroon1476
